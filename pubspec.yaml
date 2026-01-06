@@ -1,0 +1,14 @@
+name: mobile_check
+description: Release readiness checklist for mobile apps
+version: 1.0.0
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  args: ^2.5.0
+  yaml: ^3.1.2
+  path: ^1.9.0
+  process_run: ^1.2.4  # for shell commands
+
+dev_dependencies:
+  test: ^1.25.0
